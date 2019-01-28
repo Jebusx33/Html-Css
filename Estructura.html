@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- comentar  -->
+<!-- cabecera de la pagina   -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- se utiliza para indicar el autor, describir la pagina y buscador de google -->
+    <meta http-equiv="autor" content="Jesusarias.com.ar">
+    <meta http-equiv="describir" content="pagina de extructura html">
+    <meta http-equiv="keywords" content="pruebas html,imagenes, formulario">
+    <!--Titulo de la pestaña    -->
+    <title>Estructura de html</title>
+    <!-- icono de la pestaña   -->
+    <link rel="icon" href="imagenes/manga.png" width="100" height="100">
+</head>
+<!-- Cuerpo de la pagina, lo que ve el usuario   -->
+
+<body>
+    <header>
+        <!--Divisor para dar estilo al logo tipo en HTMl4-->
+        <div>encabezado</div>
+        encabezado</header>
+    <nav>barra de navrgacion</nav>
+    <section>seccion principal</section>
+    <aside>Columna</aside>
+    <article>articulos</article>
+
+    <h1>Titulo de la web</h1>
+    <H2>Sub tutilulo Bienvenidos</H2>
+    <p>
+        <!-- {parrafo} (https://loremipsum.io/es/)-->
+        <!-- <a href="" taget="blank"></a>  link taget="blank" abre otra pestaña-->
+
+    </p>
+    <p>Lorem ipsum <a href="https://www.google.com/search?client=firefox-b&q=dolor" target="blank"> dolor </a> sit
+        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.<br> <!-- se puede usar cuantas veces quieras  --> Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+    <br> <!-- salto de linea  -->
+    <hr><!-- salto de linea con una linea -->
+    <h3>Tercer encabezado de la pagina</h3>
+    <Strong>
+        <!-- texto en Negrita  --></Strong>
+    <em>
+        <!-- texto en cursiva se puede usar tambien <i> --></em>
+    <span>
+        <!--etiqueta para maquetacion, sirve para modificar con CSS con un id Ej: <span id ="resaltado" class="rojo amarillo">  --></span>
+    <p>Lorem ipsum dolor sit amet, <strong> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.</strong> Ut enim ad minim veniam, <em> nostrud exercitation ullamco laboris</em> nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est laborum.</p>
+    <blockquote>
+        <!-- para citar  -->
+    </blockquote>
+    <blockquote> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum. </blockquote>
+    <br>
+    <h4>Listas </h4> <!-- dentro de las listas se pueden ingrear mas listas  -->
+    <ol>
+        <!-- Listas ordenadas  -->
+        <!-- <li>en li van los elementos de la lista </li> -->
+    </ol>
+    <ul>
+        <!-- Listas desordenada  -->
+    </ul>
+    <ol>
+        <!-- Listas ordenadas  -->
+        <li>manzana
+            <ul>
+                <li>Rojas</li>
+                <li>Verdes</li>
+            </ul>
+        </li>
+        <li>naranjas</li>
+        <li>peras</li>
+    </ol>
+    <br>
+    <h4>Imagenes</h4>
+    <!-- maquetar las imagenes y no queden flotando (html5)-->
+    <figure>
+        <!-- src="ruta de la imagen"  -->
+        <!-- alt="descripcion por si no carga la imagen"  -->
+        <!-- title="titulo"  -->
+        <!-- modificar solo una pra no deformar la imagen  -->
+        <!-- width="anchora en pixel"  -->
+        <!-- height="altura en pixel"  -->
+        <img src="imagenes/reloj loco.jpg" alt="cuando la imagen no carga" title="imagen" width="255" height="300">
+    </figure>
+    <figcaption>pie de imagen</figcaption>
+    <br>
+    <h4>Tablas</h4>
+    <!-- etiqueta principal <table>  -->
+    <!-- border="1" dibuja la tabla -->
+    <!-- para crear una fila <tr>  -->
+    <!-- pintar colimna <td> -->
+    <!-- colspan para expandir columnas <td colspan="2"> -->
+
+    <table border="1">
+        <!-- thead encabezado de al tabla (html5)-->
+        <thead>
+            <tr>
+                <th>NOMBRE</th>
+                <th>APELLIDO</th>
+                <th>PAIS</th>
+            </tr>
+        </thead>
+        <!--Cuerpo de la tabla (html5)-->
+        <tbody>
+            <tr>
+                <td>Norma</td>
+                <td>Aguilar</td>
+                <td>Venezuela</td>
+            </tr>
+            <tr>
+                <td>Paco</td>
+                <td colspan="2">Ponan</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h4>Indicadores con barra</h4>
+    <!-- indicadores (html5) en safari no lo muestra -->
+    <p>Carlos: <meter value="94" min="8" max="100" high="90"></meter></p>
+    <p>Maria: <meter value="68" min="8" max="100" high="90"></meter></p>
+    <p>Ana: <meter value="85" min="8" max="100" high="90"></meter></p>
+    <p>Andres: <meter value="45" min="8" max="100" high="90"></meter></p>
+    <br>
+    <!-- indicadores (html5)  safari  y todos-->
+    <h4>Resultados de ventas progreso </h4>
+    <p>Enero: <progress value="94" min="0" max="100"></progress></p>
+    <p>Febrero: <progress value="60" min="0" max="100"></progress></p>
+    <p>Marzo: <progress value="85" min="0" max="100"></progress></p>
+    <p>Abril: <progress value="20" min="0" max="100"></progress></p>
+<br>
+<h4>Audio</h4>
+<!-- etiqueta para audio  -->
+<!--autoplay reproduce automaticamente -->
+<!--controls son los controles del reproductor-->
+<!--loop bucle-->
+<!--preload te da 3 opciones auto el navegador decide, metadata para que carge cuando le das play, none no hacer la pre carga  -->
+<audio autoplay controls loop preload="auto">
+
+<source src="audio/audio.m4a" type="audio/mp4">
+</audio>
+<!--conversor de sonido https://www.online-convert.com/-->
+    <br>
+    <h4>video</h4>
+    <!-- etiqueta para video tiene los mismos atrubutos que audio -->
+    <!--autoplay reproduce automaticamente -->
+    <!--controls son los controles del reproductor-->
+    <!--loop bucle-->
+    <!--preload te da 3 opciones auto el navegador decide, metadata para que carge cuando le das play, none no hacer la pre carga  -->
+    <video controls preload="auto" src="video/video.mp4" width="500" height="600"></video>
+    <!--Conversor de video https://video.online-convert.com/-->
+<br>
+<h4>insertar vieos/audio/Doc/pdf/maps etc online</h4>
+<!--allowfullscreen permite ponerlo fullscreem-->
+<!--src="pagina.com/enbed/link despues del igual ej _45345435"  -->
+<iframe src="//v.calameo.com/?bkcode=0051787953332139c6821" width="300" height="194" frameborder="0" scrolling="no" allowtransparency allowfullscreen style="margin:0 auto;"></iframe>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- revistas online https://es.calameo.com/-->
+<br>
+    <h4>Formulario</h4>
+    <!-- frea el formulario   <form>-->
+    <!-- action="" donde tiene que enviar el form con php  -->
+    <!-- method="post" que metodo se va a utilizar htpp o htpps -->
+    <!-- placeholder= indicador para el usuario-->
+
+    <!-- <label> la etiqueta-->
+    <!-- esta eiqueta que va adentod fel form <input> -->
+    <!-- <label for=""> indica a donde pertenece la entrada -->
+
+    <form>
+        <p>
+            <label for="nombre">NOMBRE: </label>
+            <input type="text" name="nombre" placeholder="Igrese el nombre" />
+        </p>
+        <p>
+            <label for="descripcion">Descripcion</label> <br>
+            <textarea name="nombre" id="" cols="30" rows="10">Se mantendra la privacidad de los datos</textarea>
+        </p>
+        <p>
+        <!-- radio butons-->
+        <input type="radio" name="genero" value="H">Homnre<br />
+        <input type="radio" name="genero" value="M">Mujer<br />
+        <input type="radio" name="genero" value="N/A">No Informa<br />
+        <!-- campo select lista desplegable-->
+        <select name="desplegable" id="">
+            <option value="h">Hombre</option>
+            <option value="m">Mujer</option>
+            <option value="na">No Informa</option>
+        </select>
+    </p>
+        <p>
+                <label for="nombre">Correo: </label>
+                <!--required indica que es obligatorio llenar-->
+                <input type="mail" name="mai" placeholder="mail@mail.com" required />
+            </p>
+            <p>
+                    <label for="nombre">Contraseña: </label>
+                    <input type="password" name="password" placeholder="" />
+                </p>
+                <p>
+                        <label for="nombre">Edad: </label>
+                        <input type="number" name="Edad" value="18" min="17" />
+                    </p>
+                <p>
+                        <input type="checkbox" id="rojo"/> <label for="rojo">Rojo</label>
+                        <input type="checkbox" id="amarillo"/> <label for="amarillo">Amarillo</label>
+                </p>
+
+        <!-- butons-->
+        <!-- type="submit" para crear el boton-->
+        <input type="submit" value="Enviar formulario" />
+
+    </form>
+    <br>
+
+
+
+
+    <!-- pie de pagina-->
+    <footer>derecho de autor cuando se creo la pagina ect</footer>
+
+
+</body>
+
+</html>
