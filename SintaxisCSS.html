@@ -25,12 +25,60 @@ body{
     height:200px;
     background:yellow;
 }
+/*propiedad de grupo de caja*/
+.grupo{
+    width:200px;
+    height:200px;
+    background:blue;
+    margin: 10px
+}
+/*proiedades de las cajas de un grupo*/
+#c1{
+    background: grey;
+}
+#c2{
+    background: rgba(21, 147, 179,1);
+}
+#c3{background: turquoise;}
+
+/*Propiedades de forma*/
+header{
+    width: 1000px;
+    height: 200px;
+    background:blueviolet;
+    margin: 20px;
+    border: 5px solid black;
+    padding: 20px;
+  
+}
+  /*propiedades logotipo*/
+  #logo{
+      /*con el ancho y el largo puedo formar un circulo si son iguales*/
+        width: 200px;
+        height: 60px;
+        background:green;
+        border: 5px solid white;
+        /*curvas a los bordes*/
+        border-radius: 20%; 
+    }
+
 </Style>
 
 </head>
 <body>
-  <!--crea la caja-->  
+    <!--Encabezado/cabezota-->
+    <header>
+        <!--inserto un logotipo-->
+        <div id="logo">Logotipo</div>
+    </header>
+    <br>
+  <!--crea las cajas-->  
 <div id="caja" ></div>
+<div class="grupo"></div>
+<div class="grupo"></div>
+<div id="c1" class="grupo"></div>
+<div id="c2"  class="grupo"></div>
+<div id="c3"  class="grupo"></div>
     
 </body>
 </html>
