@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Propiedades de Texto</title>
+    <!-- Para vincular las fuentes https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <!--Propiedades de Css Cajas internas-->
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            /*cambiar las propiedades de las cajas*/
+            list-style: none;
+            font-family: sans-serif;
+
+        }
+
+
+        header {
+
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 120px;
+            background: #444;
+        }
+
+        #logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 200px;
+            height: 60px;
+            background: #aaa;
+            /* Copio las propiedades para vincular las fuentes https://fonts.google.com/*/
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+            /*tamaño de la fuente*/
+            text-align: center;
+            /*centra el texto en lacaja*/
+            line-height: 50px;
+            /*alinea a la altura de la capa*/
+        }
+
+        /*propiedades del grupo de iconos*/
+        .redes {
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            background: #aaa;
+            border-radius: 100%;
+            text-align: center;
+            /*centra el texto en lacaja*/
+            line-height: 42px;
+            /*alinea a la altura de la capa*/
+            color: black;
+        }
+
+        /*posicion de los iconos de las redes sociales*/
+        #icono1 {
+            top: 42px;
+            right: 120px;
+            background: blue;
+        }
+
+        #icono2 {
+            top: 42px;
+            right: 71px;
+            background: fuchsia;
+        }
+
+        #icono3 {
+            top: 42px;
+            right: 19px;
+            background: cyan;
+        }
+
+        nav {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 48px;
+            background: rgb(196, 195, 195);
+        }
+
+        /*dibuja los bordes/diviciones*/
+        .botones {
+            float: left;
+            width: 196px;
+            margin: 0px 2px;
+            height: 48px;
+            background: #444;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            /*centra el texto en lacaja*/
+            line-height: 48px;
+            /*alinea a la altura de la capa*/
+            color: white;
+
+        }
+
+        #top {
+
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 192px;
+            background: #c4c3c3;
+            color: white;
+            text-align: center;
+            /*centra el texto en lacaja*/
+            line-height: 48px;
+            /*alinea a la altura de la capa*/
+
+        }
+
+        /*caja por ruta es como una clase */
+        /*modifica el ancho del ul*/
+        #top ul {
+            width: 1010px;
+            height: 192px;
+
+        }
+
+        #top ul li {
+            float: left;
+            width: 326px;
+            height: 192px;
+            background: black;
+            margin-right: 10px;
+
+        }
+
+        /*sigo la ruta hasta la img*/
+        #top ul li img {
+            margin: 5px;
+            border-radius: 100%;
+            height: 100px;
+        }
+
+        /*sigo la ruta hasta h1*/
+        #top ul li h1 {
+
+            font-family: 'Lobster', cursive;
+            font-size: 20px;
+            /*tamaño de la fuente*/
+            text-align: center;
+            /*centra el texto en lacaja*/
+            line-height: 5px;
+            /*alinea a la altura de la capa*/
+
+        }
+
+        /*sigo la ruta hasta h1*/
+        #top ul li p {
+            font-size: 14px;
+            /*tamaño de la fuente*/
+            margin: 5px;
+            text-align: center;
+            /*centra el texto en lacaja*/
+            line-height: 20px;
+            /*alinea a la altura de la capa*/
+        }
+
+        /*otra dforma de llamar la caja de la seccion*/
+        
+        section {
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 453px;
+            background: rgb(12, 12, 12);
+
+
+        }
+
+
+        aside#izq {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: rgb(196, 195, 195);
+        }
+        article{
+	position:absolute;
+	left:200px;
+	top:0;
+	width:600px;
+	height:453px;
+	}
+        article h1 {
+            color: white;
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+            /*tamaño de la fuente*/
+            margin: 20px;
+            text-align: center;
+            /*centra el texto en lacaja*/
+
+        }
+
+        article p img {
+            position: relative;
+
+            float: left;
+            margin-right: 20px;
+
+
+        }
+
+        article p {
+            color: white;
+            margin: 5px 20px;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+
+        aside#der {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: rgb(196, 195, 195);
+        }
+
+        footer {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 70px;
+            background: rgb(87, 85, 85);
+            text-align: center;
+            color: white;
+            line-height: 60px;
+        }
+    </Style>
+
+</head>
+
+
+<body>
+
+    <!--Inicio Encabezado-->
+    <header>
+
+        <div id="logo">Logo</div>
+        <!--agrego class para darle un valor-->
+        <div id="icono1" class="redes">Redes</div>
+        <div id="icono2" class="redes">Redes</div>
+        <div id="icono3" class="redes">Redes</div>
+    </header>
+    <!--Cierra encabezado-->
+
+    <!--Inicio barra de navegacion-->
+    <nav>
+        <ul>
+            <li class="botones">Botón 1</li>
+            <li class="botones">Botón 2</li>
+            <li class="botones">Botón 3</li>
+            <li class="botones">Botón 4</li>
+            <li class="botones">Botón 5</li>
+        </ul>
+    </nav>
+    <!--Cierra Barra de navegacion-->
+
+    <!--Inicia parte Superior-->
+    <div id="top">
+        <ul>
+            <li>
+                <img src="img/img01.jpg" width="100">
+                <h1>Lorem Ipsun</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+            </li>
+            <li><img src="img/img02.jpg" width="100">
+                <h1>Lorem Ipsun</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+            </li>
+            <li><img src="img/img03.jpg" width="100">
+                <h1>Lorem Ipsun</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+            </li>
+        </ul>
+    </div>
+    <!--Inicia parte Superior-->
+
+    <!--Inicia seccion-->
+    <section>
+        <aside id="izq"></aside>
+        <article>
+            <H1>Lorem ipsum</H1>
+            <p> <img src="img/foto.jpg" width="258"> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.<br> <!-- se puede usar cuantas veces quieras  --> Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.<br> <!-- se puede usar cuantas veces quieras  --> Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <aside id="der"></aside>
+    </section>
+    <!--Cierra Seccion-->
+    <!--Inicia pie de pagina-->
+    <footer>
+        &COPY;Todos los derechos reservados.
+    </footer>
+    <!--Cierra Pie de Pagina-->
+
+</body>
+
+</html>

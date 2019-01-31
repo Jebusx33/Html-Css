@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Propiedades de Ubicacion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <!--Propiedades de Css Cajas internas-->
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+        }
+
+
+        header {
+
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 120px;
+            background: #444;
+        }
+
+        #logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 200px;
+            height: 60px;
+            background: #aaa;
+        }
+
+        /*propiedades del grupo de iconos*/
+        .redes {
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            background: #aaa;
+            border-radius: 100%;
+        }
+
+        /*posicion de los iconos de las redes sociales*/
+        #icono1 {
+            top: 42px;
+            right: 120px;
+        }
+
+        #icono2 {
+            top: 42px;
+            right: 71px;
+        }
+
+        #icono3 {
+            top: 42px;
+            right: 19px;
+        }
+
+        nav {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 48px;
+            background: rgb(196, 195, 195);
+        }
+
+        /*dibuja los bordes/diviciones*/
+        .botones {
+            float: left;
+            width: 196px;
+            margin: 0px 2px;
+            height: 48px;
+            background: #444
+        }
+
+        #top {
+
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 192px;
+            background: rgb(196, 195, 195);
+
+        }
+
+        /*caja por ruta es como una clase */
+        /*modifica el ancho del ul*/
+        #top ul {
+            width: 1010px;
+            height: 192px;
+
+        }
+
+        #top ul li {
+            float: left;
+            width: 326px;
+            height: 192px;
+            background: black;
+            margin-right: 10px;
+
+        }
+
+        section {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 453px;
+            background: rgb(12, 12, 12);
+        }
+
+        /*otra dforma de llamar la caja de la seccion*/
+        aside#izq {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: rgb(196, 195, 195);
+        }
+
+        aside#der {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background:rgb(196, 195, 195);
+        }
+
+        footer {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 70px;
+            background: rgb(87, 85, 85);
+        }
+    </Style>
+
+</head>
+
+
+<body>
+
+    <!--Inicio Encabezado-->
+    <header>
+
+        <div id="logo">Logo</div>
+        <!--agrego class para darle un valor-->
+        <div id="icono1" class="redes"></div>
+        <div id="icono2" class="redes"></div>
+        <div id="icono3" class="redes"></div>
+    </header>
+    <!--Cierra encabezado-->
+
+    <!--Inicio barra de navegacion-->
+    <nav>
+        <ul>
+            <li class="botones"></li>
+            <li class="botones"></li>
+            <li class="botones"></li>
+            <li class="botones"></li>
+            <li class="botones"></li>
+        </ul>
+    </nav>
+    <!--Cierra Barra de navegacion-->
+
+    <!--Inicia parte Superior-->
+    <div id="top">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--Inicia parte Superior-->
+
+    <!--Inicia seccion-->
+    <section>
+        <aside id="izq"></aside>
+        <article>
+            <aside id="der"></aside>
+        </article>
+
+    </section>
+    <!--Cierra Seccion-->
+    <!--Inicia pie de pagina-->
+    <footer>
+
+    </footer>
+    <!--Cierra Pie de Pagina-->
+</body>
+
+</html>
